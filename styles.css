@@ -14,6 +14,7 @@ body {
 }
 
 img {
+    display: block;
     width: 100%;
 }
 
@@ -96,11 +97,23 @@ uo button {
     padding-top: 2rem;
 }
 
+.accent {
+    position: absolute;
+    top: 0%;
+    left: ;
+    height:  .45rem;
+    width: 8rem;
+    background: linear-gradient(to top right,#FFC593,#BC7198,#5A77FF);
+}
+
 main {
     background-color: #000;
     color: #fff;
-
 } 
+
+main h1 {
+    position: relative;
+}
 
 main h1,
 section h2 {
