@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Commissioner:wght@400;800&family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
   <title>Photosnap Website Challenge</title>
@@ -24,43 +24,49 @@
         <a href="features.html"><li>Features</li></a>
         <a href="pricing.html"><li>Pricing</li></a>
         <div>
-          <button class="nav-btn">Get an invite</button>
+          <button class="nav-btn nav-btn--hide">Get an invite</button>
         </div>
       </uo>
     </nav>
   </header>
 
   <main>
-    <img src="./starter-code/assets/home/mobile/create-and-share.jpg" alt="" data="img-mobile">
-    <img class="hide" alt="" data="img-tablet">
-    <img class="hide" alt="" data="img-desktop">
-    <h1><span class="accent"></span>Create and share your photo Stories.</h1>
-    <p>Photosnap is a platform for photographers and visual storytellers. We make it 
-    easy to share photos, tell stories and connect with others.</p>
-    <h4>Get an invite</h4>
+    <div class="main__wrapper">
+      <img src="./starter-code/assets/home/mobile/create-and-share.jpg" alt="" class="landing__img--m landing__img--layout">
+      <img src="./starter-code/assets/home/tablet/create-and-share.jpg" alt="" class="landing__img--t landing__img--layout">
+      <img src="./starter-code/assets/home/desktop/create-and-share.jpg" alt="" class="landing__img--d landing__img--layout">
+
+      <h1 class="main__title--layout"><span class="accent"></span>Create and share your photo Stories.</h1>
+      <p class="main__description--layout">Photosnap is a platform for photographers and visual storytellers. We make it 
+      easy to share photos, tell stories and connect with others.</p>
+      <h4 class="main__button--layout">Get an invite</h4>
+    </div>
   </main>
-  <section>
-    <img src="./starter-code/assets/home/mobile/beautiful-stories.jpg" alt="" data="img-mobile">
-    <img class="hide" src="" alt="" data="img-tablet">
-    <img src="" alt="" data="img-desktop">  
-    <h2>Beautiful stories every time</h2>
+  <section class="stories__wrapper">
+    <img src="./starter-code/assets/home/mobile/beautiful-stories.jpg" alt="" class="stories__img--m stories__img--layout">
+    <img src="./starter-code/assets/home/tablet/beautiful-stories.jpg" alt="" class="stories__img--t stories__img--layout">
+    <img src="./starter-code/assets/home/desktop/beautiful-stories.jpg" alt="" class="stories__img--d stories__img--layout">
+
+    <h2 class="stories__title--layout">Beautiful stories every time</h2>
   
-    <p>We provide design templates to ensure your stories look terrific. Easily add 
+    <p class="stories__description--layout">We provide design templates to ensure your stories look terrific. Easily add 
     photos, text, embed maps and media from other networks. Then share your story 
     with everyone.</p>
 
-    <h4>View the stories</h4>
+    <h4 class="stories__button--layout">View the stories</h4>
   </section>
-  <section>
-    <img src="./starter-code/assets/home/mobile/designed-for-everyone.jpg" alt="" data="img-mobile">
-    <img class="hide" src="" alt="" data="img-tablet">
-    <img class="hide" src="" alt="" data="img-desktop">
-    <h2>Designed for everyone</h2>
+  <section class="designed__wrapper">
+    <img src="./starter-code/assets/home/mobile/designed-for-everyone.jpg" alt="" data="img-mobile" class="designed__img--m designed__img--layout">
+    <img src="./starter-code/assets/home/tablet/designed-for-everyone.jpg" alt="" data="img-mobile" class="designed__img--t designed__img--layout">
+    <img src="./starter-code/assets/home/desktop/designed-for-everyone.jpg" alt="" data="img-mobile" class="designed__img--d designed__img--layout">
 
-    <p>Photosnap can help you create stories that resonate with your audience.  Our 
+
+    <h2 class="designed__title--layout">Designed for everyone</h2>
+
+    <p class="designed__description--layout">Photosnap can help you create stories that resonate with your audience.  Our 
     tool is designed for photographers of all levels, brands, businesses you name it.</p>
 
-      <h4>View the stories</h4>
+      <h4 class="designed__button--layout">View the stories</h4>
   </section>
   <section class="grid-container section-1">
     <div class="grid-item1 place-text">
