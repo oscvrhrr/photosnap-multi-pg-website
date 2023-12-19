@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./starter-code/assets/favicon-no-background.png">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Commissioner:wght@400;800&family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
-  <title>Photosnap Website Challenge</title>
+  <title>Photosnap | Photo Sharing App</title>
 </head>
 <body>
   <header>
@@ -108,43 +108,47 @@
     <div class="item__responsive">
       <img src="./starter-code/assets/features/desktop/responsive.svg" alt="" class="icon--small">
       <h3 class="item__title">100% Responsive</h3>
-      <p>No matter which the device you’re on, our site is fully responsive and stories 
+      <p class="item__description--width">No matter which the device you’re on, our site is fully responsive and stories 
       look beautiful on any screen.</p>
     </div>
     <div class="item__upload">
       <img src="./starter-code/assets/features/desktop/no-limit.svg" alt="" class="icon--small">
 
       <h3 class="item__title">No Photo Upload Limit</h3>
-      <p>Our tool has no limits on uploads or bandwidth. Freely upload in bulk and 
+      <p class="item__description--width">Our tool has no limits on uploads or bandwidth. Freely upload in bulk and 
       share all of your stories in one go.</p>
     </div>
     <div class="item__embed">
       <img src="./starter-code/assets/features/desktop/embed.svg" alt="" class="icon--small">
 
       <h3 class="item__title">Available to Embed</h3>
-      <p>Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, 
+      <p class="item__description--width">Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, 
       Google Maps, and more. </p>
     </div>
   </section>
   <footer>
-    <div class="footer-logo">
-      <img src="./starter-code/assets/shared/desktop/footer-logo.svg">
+    <div class="home__footer--wrapper"> 
+      <div class="footer-logo footer__logo--layout">
+        <img src="./starter-code/assets/shared/desktop/footer-logo.svg">
+      </div>
+      <div class="footer__socials--layout">
+        <img class="footer-link" src="./starter-code/assets/shared/desktop/facebook.svg">
+        <img class="footer-link" src="./starter-code/assets/shared/desktop/youtube.svg" alt="">
+        <img class="footer-link" src="./starter-code/assets/shared/desktop/twitter.svg" alt="">
+        <img class="footer-link" src="./starter-code/assets/shared/desktop/pinterest.svg" alt="">
+        <img class="footer-link" src="./starter-code/assets/shared/desktop/instagram.svg" alt="">
+      </div>
+      <div class="footer__nav">
+        <a href="">Home</a>
+        <a href=""> Stories</a>
+        <a href="">Features</a>
+        <a href="">Pricing</a>
+      </div>
+  
+      <h4 class="footer__btn--layout">Get an invite</h4>
+  
+      <p class="footer__copyright--layout">Copyright 2019. All Rights Reserved</p>
     </div>
-    <div>
-      <img class="footer-link" src="./starter-code/assets/shared/desktop/facebook.svg">
-      <img class="footer-link" src="./starter-code/assets/shared/desktop/youtube.svg" alt="">
-      <img class="footer-link" src="./starter-code/assets/shared/desktop/twitter.svg" alt="">
-      <img class="footer-link" src="./starter-code/assets/shared/desktop/pinterest.svg" alt="">
-      <img class="footer-link" src="./starter-code/assets/shared/desktop/instagram.svg" alt="">
-    </div>
-    <a href="">Home</a>
-    <a href=""> Stories</a>
-    <a href="">Features</a>
-    <a href="">Pricing</a>
-
-    <h4>Get an invite</h4>
-
-    <p>Copyright 2019. All Rights Reserved</p>
   </footer>
   <script src="js/main.js"></script>
 </body>
