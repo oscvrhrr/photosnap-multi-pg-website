@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Explore the world of PhotoSnaps, your go-to app for capturing and sharing life's precious moments. Unleash your creativity with powerful photo editing tools. Download now for a vibrant and visually stunning photo experience.">
   <link rel="icon" type="image/png" sizes="32x32" href="./starter-code/assets/favicon-no-background.png">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="./src/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
@@ -14,14 +14,14 @@
 <body>
   <header>
     <a class="logo" href="index.html">
-      <img src="./starter-code/assets/shared/desktop/logo.svg">
+      <img src="./public/assets/shared/desktop/logo.svg">
     </a>
     <div class="hamburger-menu">
-      <img src="./starter-code/assets/shared/mobile/menu.svg" alt="">
+      <img src="./public/assets/shared/mobile/menu.svg" alt="">
     </div>
     <nav class="nav-menu hide">
       <uo>
-        <a href="stories.html"><li class="stories-space">Stories</li></a>
+        <a href="stories/stories.html"><li class="stories-space">Stories</li></a>
         <a href="features.html"><li>Features</li></a>
         <a href="pricing.html"><li>Pricing</li></a>
         <div>
@@ -30,12 +30,12 @@
       </uo>
     </nav>
   </header>
-
+  
   <main>
     <div class="main__wrapper">
-      <img src="./starter-code/assets/home/mobile/create-and-share.jpg" alt="" class="landing__img--m landing__img--layout">
-      <img src="./starter-code/assets/home/tablet/create-and-share.jpg" alt="" class="landing__img--t landing__img--layout">
-      <img src="./starter-code/assets/home/desktop/create-and-share.jpg" alt="" class="landing__img--d landing__img--layout">
+      <img src="./public/assets/home/mobile/create-and-share.jpg" alt="" class="landing__img--m landing__img--layout">
+      <img src="./public/assets/home/tablet/create-and-share.jpg" alt="" class="landing__img--t landing__img--layout">
+      <img src="./public/assets/home/desktop/create-and-share.jpg" alt="" class="landing__img--d landing__img--layout">
 
       <h1 class="main__title--layout"><span class="accent"></span>Create and share your photo Stories.</h1>
       <p class="main__description--layout">Photosnap is a platform for photographers and visual storytellers. We make it 
@@ -44,9 +44,9 @@
     </div>
   </main>
   <section class="stories__wrapper">
-    <img src="./starter-code/assets/home/mobile/beautiful-stories.jpg" alt="" class="stories__img--m stories__img--layout">
-    <img src="./starter-code/assets/home/tablet/beautiful-stories.jpg" alt="" class="stories__img--t stories__img--layout">
-    <img src="./starter-code/assets/home/desktop/beautiful-stories.jpg" alt="" class="stories__img--d stories__img--layout">
+    <img src="./public/assets/home/mobile/beautiful-stories.jpg" alt="" class="stories__img--m stories__img--layout">
+    <img src="./public/assets/home/tablet/beautiful-stories.jpg" alt="" class="stories__img--t stories__img--layout">
+    <img src="./public/assets/home/desktop/beautiful-stories.jpg" alt="" class="stories__img--d stories__img--layout">
 
     <h2 class="stories__title--layout">Beautiful stories every time</h2>
   
@@ -57,9 +57,9 @@
     <h4 class="stories__button--layout">View the stories</h4>
   </section>
   <section class="designed__wrapper">
-    <img src="./starter-code/assets/home/mobile/designed-for-everyone.jpg" alt="" data="img-mobile" class="designed__img--m designed__img--layout">
-    <img src="./starter-code/assets/home/tablet/designed-for-everyone.jpg" alt="" data="img-mobile" class="designed__img--t designed__img--layout">
-    <img src="./starter-code/assets/home/desktop/designed-for-everyone.jpg" alt="" data="img-mobile" class="designed__img--d designed__img--layout">
+    <img src="./public/assets/home/mobile/designed-for-everyone.jpg" alt="" data="img-mobile" class="designed__img--m designed__img--layout">
+    <img src="./public/assets/home/tablet/designed-for-everyone.jpg" alt="" data="img-mobile" class="designed__img--t designed__img--layout">
+    <img src="./public/assets/home/desktop/designed-for-everyone.jpg" alt="" data="img-mobile" class="designed__img--d designed__img--layout">
 
 
     <h2 class="designed__title--layout">Designed for everyone</h2>
@@ -107,20 +107,20 @@
   <section class="container__feature section-2">
 
     <div class="item__responsive">
-      <img src="./starter-code/assets/features/desktop/responsive.svg" alt="" class="icon--small">
+      <img src="./public/assets/features/desktop/responsive.svg" alt="" class="icon--small">
       <h3 class="item__title">100% Responsive</h3>
       <p class="item__description--width">No matter which the device you’re on, our site is fully responsive and stories 
       look beautiful on any screen.</p>
     </div>
     <div class="item__upload item__upload--top-margin">
-      <img src="./starter-code/assets/features/desktop/no-limit.svg" alt="" class="icon--small">
+      <img src="./public/assets/features/desktop/no-limit.svg" alt="" class="icon--small">
 
       <h3 class="item__title">No Photo Upload Limit</h3>
       <p class="item__description--width">Our tool has no limits on uploads or bandwidth. Freely upload in bulk and 
       share all of your stories in one go.</p>
     </div>
     <div class="item__embed">
-      <img src="./starter-code/assets/features/desktop/embed.svg" alt="" class="icon--small">
+      <img src="./public/assets/features/desktop/embed.svg" alt="" class="icon--small">
 
       <h3 class="item__title">Available to Embed</h3>
       <p class="item__description--width">Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, 
@@ -130,14 +130,14 @@
   <footer>
     <div class="home__footer--wrapper"> 
       <div class="footer-logo footer__logo--layout">
-        <img src="./starter-code/assets/shared/desktop/footer-logo.svg">
+        <img src="./public/assets/shared/desktop/footer-logo.svg">
       </div>
       <div class="footer__socials--layout">
-        <img class="footer-link" src="./starter-code/assets/shared/desktop/facebook.svg">
-        <img class="footer-link" src="./starter-code/assets/shared/desktop/youtube.svg" alt="">
-        <img class="footer-link" src="./starter-code/assets/shared/desktop/twitter.svg" alt="">
-        <img class="footer-link" src="./starter-code/assets/shared/desktop/pinterest.svg" alt="">
-        <img class="footer-link" src="./starter-code/assets/shared/desktop/instagram.svg" alt="">
+        <img class="footer-link" src="./public/assets/shared/desktop/facebook.svg">
+        <img class="footer-link" src="./public/assets/shared/desktop/youtube.svg" alt="">
+        <img class="footer-link" src="./public/assets/shared/desktop/twitter.svg" alt="">
+        <img class="footer-link" src="./public/assets/shared/desktop/pinterest.svg" alt="">
+        <img class="footer-link" src="./public/assets/shared/desktop/instagram.svg" alt="">
       </div>
       <div class="footer__nav">
         <a href="">Home</a>
@@ -151,6 +151,6 @@
       <p class="footer__copyright--layout">Copyright 2019. All Rights Reserved</p>
     </div>
   </footer>
-  <script src="js/main.js"></script>
+  <script src="./main.js"></script>
 </body>
 </html>
