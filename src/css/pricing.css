@@ -161,6 +161,19 @@ uo a {
 
 }
 
+.card__button {
+  background-color: black;
+  width: 15.3125rem;
+  height: 3rem;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 1.25rem 0;
+  font-weight: bold;
+  letter-spacing: 0.15625rem;
+}
+
+
 .card--light {
   background-color: #F5F5F5;
   color: var(--main-color);
