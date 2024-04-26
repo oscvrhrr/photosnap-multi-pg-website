@@ -131,6 +131,23 @@ uo a {
   opacity: 60%;
 }
 
+.switch {
+  width: 15.9375rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4rem auto 2.5rem;
+  font-family: var(--font);
+}
+
+.switch__capsule {
+  width: 4rem;
+  height: 2rem;
+  background-color: var(--second-color);
+  border-radius: 1rem;
+}
+
 .card {
   height: 25.4375rem;
   width: 19.875rem;
@@ -184,7 +201,55 @@ uo a {
   color: var(--third-color)
 }
 
+.features {
+  font-family: var(--font);
+  width: 19.875rem;
+  margin: 4rem auto ;
+}
 
+.features__item {
+  height: 7rem;
+}
+
+.features__item::after {
+  display: block;
+  content: '';
+  border-bottom: var(--second-color) solid 1px;
+  width: 100%;
+  margin: 4rem auto;
+}
+
+.features__item-title {
+  font-size: var(--head-four-size);
+  line-height: var(--head-four-height);
+  letter-spacing: var(--head-four-spacing);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.features__item p {
+  display: inline;
+  text-transform: uppercase;
+  font-size: .625rem;
+  color: var(--main-color);
+  opacity: 50%;
+  margin-right: 4.375rem;
+}
+
+.features__title {
+  font-size: var(--head-four-size);
+  line-height: var(--head-four-height);
+  letter-spacing: var(--head-four-spacing);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.features__title::after {
+  display: block;
+  content: '';
+  border-bottom: #000 solid 1px;
+  width: 100%;
+  margin: 1rem auto;
+}
 /* -------------- FOOTER STYLES------------------------------------------------ */
 
 footer {
