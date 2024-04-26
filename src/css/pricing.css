@@ -103,3 +103,31 @@ uo a {
 .hide {
   display: none;
 }
+
+.hero__img {
+  background-image: url('../../public/assets/pricing/mobile/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 18.4rem;
+}
+
+.hero__content {
+  background-color: var(--main-color);
+  color: var(--third-color);
+  padding: 4.5rem 1.8125rem;
+}
+
+.hero__content h1 {
+  font-size: var(--head-one-size);
+  line-height: var(--head-one-height);
+  text-transform: uppercase;
+  letter-spacing: var(--head-one-spacing);
+}
+
+.hero__content p {
+  font-size: var(--para-size);
+  line-height: var(--para-height);
+  opacity: 60%;
+}
+
