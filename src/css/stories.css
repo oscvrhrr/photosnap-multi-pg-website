@@ -34,7 +34,7 @@
   font-family: var(--font);
 }
 
- nav {
+nav {
   width: 100%;
   position: absolute;
   top: 4.5rem;
@@ -104,15 +104,17 @@ uo a {
   display: none;
 }
 
-
-
 .hero__img {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%),  url('../../public/assets/stories/mobile/moon-of-appalacia.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/moon-of-appalacia.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 20rem;
-
 }
 
 .hero {
@@ -146,7 +148,7 @@ uo a {
 
 .hero__date--opacity {
   opacity: 60%;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .hero__desc {
@@ -175,15 +177,15 @@ uo a {
 }
 
 .grid__item h3 {
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   font-size: var(--head-three-size);
   line-height: var((--head-three-height));
   font-weight: bold;
 }
 
 .grid__item h4::before {
-  content: '';
+  content: "";
   display: block;
   border-top: 1px solid var(--third-color);
   opacity: 25%;
@@ -203,71 +205,152 @@ uo a {
 }
 
 .grid__item--mountains {
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/mountains.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/mountains.jpg");
   width: 100%;
 }
 .grid__item--cityscapes {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/cityscapes.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/cityscapes.jpg");
 }
 
 .grid__item--voyage {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/18-days-voyage.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/18-days-voyage.jpg");
 }
 
 .grid__item--arch {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/architecturals.jpg');
-} 
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/architecturals.jpg");
+}
 
 .grid__item--world {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/world-tour.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/world-tour.jpg");
 }
 
 .grid__item--corners {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/unforeseen-corners.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/unforeseen-corners.jpg");
 }
 
 .grid__item--king {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/king-on-africa.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/king-on-africa.jpg");
 }
 
 .grid__item--trip {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/trip-to-nowhere.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/trip-to-nowhere.jpg");
 }
 
 .grid__item--sea {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/rage-of-the-sea.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/rage-of-the-sea.jpg");
 }
 
 .grid__item--free {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/running-free.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/running-free.jpg");
 }
 
 .grid__item--waves {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/behind-the-waves.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/behind-the-waves.jpg");
 }
 
 .grid__item--calm {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/calm-waters.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/calm-waters.jpg");
 }
 
 .grid__item--milky {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/milky-way.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/milky-way.jpg");
 }
 
 .grid__item--forest {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/dark-forest.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/dark-forest.jpg");
 }
 
 .grid__item--beauty {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/somwarpet.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/somwarpet.jpg");
 }
 
 .grid__item--dreams {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 66%), url('../../public/assets/stories/mobile/land-of-dreams.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 66%
+    ),
+    url("../../public/assets/stories/mobile/land-of-dreams.jpg");
 }
 
 footer {
   background-color: #000;
+  font-family: var(--font);
 }
 
 footer div {

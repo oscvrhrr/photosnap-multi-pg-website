@@ -1,0 +1,105 @@
+:root {
+  --head-one-size: 2.5rem;
+  --head-two-size: 1.5rem;
+  --head-three-size: 1.125rem;
+  --head-four-size: 0.75rem;
+  --para-size: 0.9375rem;
+
+  --head-one-height: 3rem;
+  --head-two-height: 1.5625rem;
+  --head-three-height: 1.5625rem;
+  --head-four-height: 1rem;
+  --para-height: 1.5625rem;
+
+  --head-one-spacing: 0.26rem;
+  --head-four-spacing: 0.125rem;
+
+  --head-one-weight: bold;
+  --head-two-weight: bold;
+  --head-three-weight: bold;
+  --head-four-weight: bold;
+  --para-weight: normal;
+
+  --font: "dm sans";
+
+  --main-color: #000;
+  --second-color: #dfdfdf;
+  --third-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+nav {
+  width: 100%;
+  position: absolute;
+  top: 4.5rem;
+  background-color: white;
+  text-align: center;
+}
+
+uo div {
+  border-top: 1px #979797 solid;
+  width: 19rem;
+  margin: 0 auto;
+}
+
+uo button {
+  background-color: black;
+  width: 19rem;
+  height: 3rem;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 1.25rem 0 1.25rem 0;
+  font-weight: bold;
+  letter-spacing: 0.15625rem;
+}
+
+li,
+uo a {
+  list-style: none;
+  text-decoration: none;
+  letter-spacing: 0.15625rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.625rem 0;
+  color: black;
+}
+
+.header {
+  top: 0;
+  z-index: 0;
+  background-color: #fff;
+  min-height: 4.5rem;
+  max-height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img,
+.hamburger-menu img {
+  width: auto;
+  margin: 0 1.5rem;
+}
+
+.stories-space {
+  padding-top: 2rem;
+}
+
+.accent {
+  position: absolute;
+  top: 0%;
+  height: 0.45rem;
+  width: 8rem;
+  background: linear-gradient(to top right, #ffc593, #bc7198, #5a77ff);
+}
+
+.hide {
+  display: none;
+}

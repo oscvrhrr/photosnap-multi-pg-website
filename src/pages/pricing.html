@@ -4,22 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/pricing.css">
-  <link rel="stylesheet" href="./src/css/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
   <title>Photosnap Website Challenge</title>
 </head>
 <body>
-  <header>
-    <a href="../../index.html"><img src="../../public/assets/shared/desktop/logo.svg"></a>
-    <nav class="nav-menu">
+  <header class="header">
+    <a href="../../index.html" class="logo">
+      <img src="../../public/assets/shared/desktop/logo.svg" />
+    </a>
+    <div class="hamburger-menu">
+      <img
+        src="../../public/assets/shared/mobile/menu.svg"
+        alt="hamburger-menu"
+      />
+    </div>
+    <nav class="nav-menu hide">
       <uo>
-        <a href="./stories.html"><li>Stories</li></a>
-        <a href="./features.html"><li>Features</li></a>
-        <a href="./pricing.html"><li>Pricing</li></a>
-        <button>Get an invite</button>
+        <a href="stories.html"><li class="stories-space">Stories</li></a>
+        <a href="features.html"><li>Features</li></a>
+        <a href="pricing.html"><li>Pricing</li></a>
+        <div>
+          <button class="nav-btn">Get an invite</button>
+        </div>
       </uo>
     </nav>
   </header>
@@ -82,5 +92,6 @@
 
     Copyright 2019. All Rights Reserved
   </footer>
+  <script src="../../main.js"></script>
 </body>
 </html>
