@@ -1,4 +1,40 @@
-nav {
+:root {
+  --head-one-size: 2.5rem;
+  --head-two-size: 1.5rem;
+  --head-three-size: 1.125rem;
+  --head-four-size: 0.75rem;
+  --para-size: 0.9375rem;
+
+  --head-one-height: 3rem;
+  --head-two-height: 1.5625rem;
+  --head-three-height: 1.5625rem;
+  --head-four-height: 1rem;
+  --para-height: 1.5625rem;
+
+  --head-one-spacing: 0.26rem;
+  --head-four-spacing: 0.125rem;
+
+  --head-one-weight: bold;
+  --head-two-weight: bold;
+  --head-three-weight: bold;
+  --head-four-weight: bold;
+  --para-weight: normal;
+
+  --font: "dm sans";
+
+  --main-color: #000;
+  --second-color: #dfdfdf;
+  --third-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+ nav {
   width: 100%;
   position: absolute;
   top: 4.5rem;
@@ -66,4 +102,56 @@ uo a {
 
 .hide {
   display: none;
+}
+
+
+
+.hero__img {
+  width: 100%;
+
+}
+
+.hero {
+  background-color: var(--main-color);
+  color: var(--third-color);
+  padding: 3rem 1.75rem;
+  height: 32rem;
+}
+
+.hero__title {
+  font-size: var(--head-four-size);
+  line-height: var(--head-four-height);
+  font-weight: var(--head-four-weight);
+  letter-spacing: var(--head-four-spacing);
+  text-transform: uppercase;
+}
+
+.hero__heading {
+  font-size: var(--head-one-size);
+  line-height: var(--head-one-height);
+  letter-spacing: var(--head-one-spacing);
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.hero__date {
+  font-size: var(--para-size);
+  padding-bottom: 1.5rem;
+}
+
+.hero__date--opacity {
+  opacity: 60%;
+  margin-right: .5rem;
+}
+
+.hero__desc {
+  font-size: var(--para-size);
+  line-height: var(--para-height);
+  padding-bottom: 1.5rem;
+  opacity: 60%;
+}
+
+.hero__link {
+  padding-bottom: 3rem;
 }
