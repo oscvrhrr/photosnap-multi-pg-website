@@ -131,3 +131,63 @@ uo a {
   opacity: 60%;
 }
 
+
+/* -------------- FOOTER STYLES------------------------------------------------ */
+
+footer {
+  background-color: #000;
+  font-family: var(--font);
+}
+
+footer div {
+  display: block;
+  justify-content: center;
+}
+
+footer a {
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 0 1.18rem 0;
+}
+
+.footer-logo {
+  width: 10.675rem;
+  margin: 0 auto;
+  padding: 3.5rem 0 0 0;
+}
+
+.footer__socials--layout {
+  display: flex;
+}
+.footer-link {
+  width: 1.25rem;
+  display: inline-block;
+  margin: 2rem 0.45rem;
+}
+
+.call-to-action {
+  background-image: url('../../public/assets/shared/mobile/bg-beta.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 18rem;
+  color: var(--third-color);
+  padding: 4rem 2rem 0;
+  font-family: var(--font);
+}
+
+.call-to-action h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: .25rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.call-to-action h4 {
+  padding-top: 1.5rem;
+}
+
+
