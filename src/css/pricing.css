@@ -225,6 +225,7 @@ uo a {
   letter-spacing: var(--head-four-spacing);
   font-weight: 600;
   text-transform: uppercase;
+  margin: 2rem 0 1rem;
 }
 
 .features__item p {
