@@ -155,3 +155,78 @@ uo a {
 .hero__link {
   padding-bottom: 3rem;
 }
+
+.grid__container {
+  display: grid;
+}
+
+.grid__item {
+  height: 23.4375rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.grid__item--mountains {
+  background-image: url('../../public/assets/stories/mobile/mountains.jpg');
+  width: 100%;
+}
+.grid__item--cityscapes {
+  background-image: url('../../public/assets/stories/mobile/cityscapes.jpg');
+}
+
+.grid__item--voyage {
+  background-image: url('../../public/assets/stories/mobile/18-days-voyage.jpg');
+}
+
+.grid__item--arch {
+  background-image: url('../../public/assets/stories/mobile/architecturals.jpg');
+} 
+
+.grid__item--world {
+  background-image: url('../../public/assets/stories/mobile/world-tour.jpg');
+}
+
+.grid__item--corners {
+  background-image: url('../../public/assets/stories/mobile/unforeseen-corners.jpg');
+}
+
+.grid__item--king {
+  background-image: url('../../public/assets/stories/mobile/king-on-africa.jpg');
+}
+
+.grid__item--trip {
+  background-image: url('../../public/assets/stories/mobile/trip-to-nowhere.jpg');
+}
+
+.grid__item--sea {
+  background-image: url('../../public/assets/stories/mobile/rage-of-the-sea.jpg');
+}
+
+.grid__item--free {
+  background-image: url('../../public/assets/stories/mobile/running-free.jpg');
+}
+
+.grid__item--waves {
+  background-image: url('../../public/assets/stories/mobile/behind-the-waves.jpg');
+}
+
+.grid__item--calm {
+  background-image: url('../../public/assets/stories/mobile/calm-waters.jpg');
+}
+
+.grid__item--milky {
+  background-image: url('../../public/assets/stories/mobile/milky-way.jpg');
+}
+
+.grid__item--forest {
+  background-image: url('../../public/assets/stories/mobile/dark-forest.jpg');
+}
+
+.grid__item--beauty {
+  background-image: url('../../public/assets/stories/mobile/somwarpet.jpg');
+}
+
+.grid__item--dreams {
+  background-image: url('../../public/assets/stories/mobile/land-of-dreams.jpg');
+}
