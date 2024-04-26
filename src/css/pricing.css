@@ -131,6 +131,46 @@ uo a {
   opacity: 60%;
 }
 
+.card {
+  height: 25.4375rem;
+  width: 19.875rem;
+  margin: 0 auto;
+  font-family: var(--font);
+  text-align: center;
+  padding: 3.5rem 1.375rem 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card h2 {
+  font-size: var(--head-two-size);
+  line-height: var(--head-two-height);
+  font-weight: 600;
+  margin-bottom: 1.125rem;
+}
+
+.card h1 {
+  font-size: var(--head-one-size);
+  font-weight: 500;
+}
+
+.card p {
+  font-size: var(--para-size);
+  line-height: var(--para-height);
+  opacity: 60%;
+  margin-bottom: 2.5rem;
+
+}
+
+.card--light {
+  background-color: #F5F5F5;
+  color: var(--main-color);
+}
+
+.card--dark {
+  background-color: var(--main-color);
+  color: var(--third-color)
+}
+
 
 /* -------------- FOOTER STYLES------------------------------------------------ */
 
