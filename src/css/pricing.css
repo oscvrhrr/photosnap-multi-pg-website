@@ -216,7 +216,7 @@ uo a {
   content: '';
   border-bottom: var(--second-color) solid 1px;
   width: 100%;
-  margin: 4rem auto;
+  margin: 3rem auto;
 }
 
 .features__item-title {
@@ -229,13 +229,31 @@ uo a {
 }
 
 .features__item p {
-  display: inline;
+  /* display: inline; */
   text-transform: uppercase;
   font-size: .625rem;
   color: var(--main-color);
+  letter-spacing: 1.67px;
   opacity: 50%;
-  margin-right: 4.375rem;
+  /* margin-right: 3.75rem; */
 }
+
+.features--flex {
+display: flex;
+justify-content: space-between;
+width: 17rem;
+}
+
+.check--width {
+  width: 15rem;
+  margin-top: .5rem;
+}
+
+
+.feature__check--hide {
+  visibility: hidden;
+}
+
 
 .features__title {
   font-size: var(--head-four-size);

@@ -1,192 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="../css/reset.css">
-  <link rel="stylesheet" href="../css/pricing.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
-  <title>Photosnap Website Challenge</title>
-</head>
-<body>
-  <header class="header">
-    <a href="../../index.html" class="logo">
-      <img src="../../public/assets/shared/desktop/logo.svg" />
-    </a>
-    <div class="hamburger-menu">
-      <img
-        src="../../public/assets/shared/mobile/menu.svg"
-        alt="hamburger-menu"
-      />
-    </div>
-    <nav class="nav-menu hide">
-      <uo>
-        <a href="stories.html"><li class="stories-space">Stories</li></a>
-        <a href="features.html"><li>Features</li></a>
-        <a href="pricing.html"><li>Pricing</li></a>
-        <div>
-          <button class="nav-btn">Get an invite</button>
-        </div>
-      </uo>
-    </nav>
-  </header>
-  
-  <main>
-    <div class="hero__img"></div>
-    <div class="hero__content">
-      <h1>Pricing</h1>
-  
-      <p>Create a your stories, Photosnap is a platform for photographers and visual storytellers. 
-      It’s the simple way to create and share your photos.</p>
-    </div>
-  </main>
-  <section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/pricing.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Photosnap Website Challenge</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="../../index.html" class="logo">
+        <img src="../../public/assets/shared/desktop/logo.svg" />
+      </a>
+      <div class="hamburger-menu">
+        <img
+          src="../../public/assets/shared/mobile/menu.svg"
+          alt="hamburger-menu"
+        />
+      </div>
+      <nav class="nav-menu hide">
+        <uo>
+          <a href="stories.html"><li class="stories-space">Stories</li></a>
+          <a href="features.html"><li>Features</li></a>
+          <a href="pricing.html"><li>Pricing</li></a>
+          <div>
+            <button class="nav-btn">Get an invite</button>
+          </div>
+        </uo>
+      </nav>
+    </header>
 
-    <div class="switch">
-      <p>Monthly</p><div class="switch__capsule"></div><p>Yearly</p>
-    </div>
+    <main>
+      <div class="hero__img"></div>
+      <div class="hero__content">
+        <h1>Pricing</h1>
 
+        <p>
+          Create a your stories, Photosnap is a platform for photographers and
+          visual storytellers. It’s the simple way to create and share your
+          photos.
+        </p>
+      </div>
+    </main>
+    <section>
+      <div class="switch">
+        <p>Monthly</p>
+        <div class="switch__capsule"></div>
+        <p>Yearly</p>
+      </div>
 
+      <div class="card card--light">
+        <h2>Basic</h2>
+        <p>
+          Includes basic usage of our platform. Recommended for new and aspiring
+          photographers.
+        </p>
+        <h1>$19.00</h1>
+        <p>per month</p>
+        <!-- $190.00 per year -->
+        <button class="card__button">Pick Plan</button>
+      </div>
+      <div class="card card--dark">
+        <h2>Pro</h2>
+        <p>
+          More advanced features available. Recommended for photography veterans
+          and professionals.
+        </p>
+        <h1>$39.00</h1>
+        <p>per month</p>
+        <!-- $390.00 per year -->
+        <button class="card__button card--light">Pick Plan</button>
+      </div>
+      <div class="card card--light">
+        <h2>Business</h2>
+        <p>
+          Additional features available such as more detailed metrics.
+          Recommended for business owners.
+        </p>
+        <h1>$99.00</h1>
+        <p>per month</p>
+        <!-- $990.00 per year -->
+        <button class="card__button">Pick Plan</button>
+      </div>
+    </section>
+    <section>
+      <div class="features">
+        <h4 class="features__title">The Features</h4>
+        <div class="features__item">
+          <h4 class="features__item-title">Unlimited Story Posting</h4>
+          <div class="features--flex">
+            <p>Basic</p>
+            <p>Pro</p>
+            <p>Business</p>
+          </div>
+          <div class="features--flex check--width">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+          </div>
+        </div>
+        <div class="features__item">
+          <h4 class="features__item-title">Unlimited Photo Upload</h4>
+          <div class="features--flex">
+            <p>Basic</p>
+            <p>Pro</p>
+            <p>Business</p>
+          </div>
+          <div class="features--flex check--width">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+          </div>
+        </div>
+        <div class="features__item">
+          <h4 class="features__item-title">Embedding Custom Content</h4>
+          <div class="features--flex">
+            <p>Basic</p>
+            <p>Pro</p>
+            <p>Business</p>
+          </div>
+          <div class="features--flex check--width">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt=""class="feature__check--hide">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+          </div>
+        </div>
+        <div class="features__item">
+          <h4 class="features__item-title">Customize Metadata</h4>
+          <div class="features--flex">
+            <p>Basic</p>
+            <p>Pro</p>
+            <p>Business</p>
+          </div>
+          <div class="features--flex check--width">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt=""class="feature__check--hide">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+          </div>
+        </div>
+        <div class="features__item">
+          <h4 class="features__item-title">Advanced Metrics</h4>
+          <div class="features--flex">
+            <p>Basic</p>
+            <p>Pro</p>
+            <p>Business</p>
+          </div>
+          <div class="features--flex check--width">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt=""class="feature__check--hide">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt=""class="feature__check--hide">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+          </div>
+        </div>
+        <div class="features__item">
+          <h4 class="features__item-title">Photo Downloads</h4>
+          <div class="features--flex">
+            <p>Basic</p>
+            <p>Pro</p>
+            <p>Business</p>
+          </div>
+          <div class="features--flex check--width">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt=""class="feature__check--hide">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt=""class="feature__check--hide">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+          </div>
+        </div>
+        <div class="features__item">
+          <h4 class="features__item-title">Search Engine Indexing</h4>
+          <div class="features--flex">
+            <p>Basic</p>
+            <p>Pro</p>
+            <p>Business</p>
+          </div>
+          <div class="features--flex check--width">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt=""class="feature__check--hide">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt=""class="feature__check--hide">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+          </div>
+        </div>
+        <div class="features__item">
+          <h4 class="features__item-title">Custom Analytics</h4>
+          <div class="features--flex">
+            <p>Basic</p>
+            <p>Pro</p>
+            <p>Business</p>
+          </div>
+          <div class="features--flex check--width">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="" class="feature__check--hide">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="" class="feature__check--hide">
+            <img src="../../public/assets/pricing/desktop/check.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="call-to-action">
+      <h2>We're in Beta. Get your invite today!</h2>
 
-    <div class="card card--light">
-      <h2>Basic</h2>
-      <p>
-        Includes basic usage of our platform. Recommended for new and aspiring photographers.
-      </p>
-      <h1>$19.00</h1>
-      <p>per month</p>
-      <!-- $190.00 per year -->
-      <button class="card__button">
-        Pick Plan
-      </button>
+      <h4>Get an invite</h4>
     </div>
-    <div class="card card--dark">
-      <h2>Pro</h2>
-      <p>
-        More advanced features available. Recommended for photography veterans and professionals.
-      </p>
-      <h1>$39.00</h1>
-      <p>per month</p>
-      <!-- $390.00 per year -->
-      <button class="card__button card--light">
-        Pick Plan
-      </button>
-    </div>
-    <div class="card card--light">
-      <h2>Business</h2>
-      <p>
-        Additional features available such as more detailed metrics. Recommended for business owners.
-      </p>
-       <h1>$99.00</h1> 
-       <p> per month</p>
-      <!-- $990.00 per year -->
-      <button class="card__button">
-        Pick Plan
-      </button>
-    </div>
-  </section>
-  <section>
-    <div class="features">
-      <h4 class="features__title">The Features</h4>
-      <div class="features__item">
-        <h4 class="features__item-title">Unlimited Story Posting</h4>
-        <div>
-          <p>Basic</p>
-          <p>Pro</p>
-          <p>Business</p>
+    <footer>
+      <div class="home__footer--wrapper">
+        <div class="footer-logo footer__logo--layout">
+          <img src="../../public/assets/shared/desktop/footer-logo.svg" />
         </div>
-      </div>
-      <div class="features__item">
-        <h4 class="features__item-title">Unlimited Photo Upload</h4>
-        <div>
-          <p>Basic</p>
-          <p>Pro</p>
-          <p>Business</p>
+        <div class="footer__socials--layout">
+          <img
+            class="footer-link"
+            src="../../public/assets/shared/desktop/facebook.svg"
+          />
+          <img
+            class="footer-link"
+            src="../../public/assets/shared/desktop/youtube.svg"
+            alt=""
+          />
+          <img
+            class="footer-link"
+            src="../../public/assets/shared/desktop/twitter.svg"
+            alt=""
+          />
+          <img
+            class="footer-link"
+            src="../../public/assets/shared/desktop/pinterest.svg"
+            alt=""
+          />
+          <img
+            class="footer-link"
+            src="../../public/assets/shared/desktop/instagram.svg"
+            alt=""
+          />
         </div>
-      </div>
-      <div class="features__item">
-        <h4 class="features__item-title">Embedding Custom Content</h4>
-        <div>
-          <p>Basic</p>
-          <p>Pro</p>
-          <p>Business</p>
+        <div class="footer__nav">
+          <a href="../../index.html">Home</a>
+          <a href="./stories.html"> Stories</a>
+          <a href="./features.html">Features</a>
+          <a href="./pricing.html">Pricing</a>
         </div>
-      </div>
-      <div class="features__item">
-        <h4 class="features__item-title">Customize Metadata</h4>
-        <div>
-          <p>Basic</p>
-          <p>Pro</p>
-          <p>Business</p>
-        </div>
-      </div>
-      <div class="features__item">
-        <h4 class="features__item-title">Advanced Metrics</h4>
-        <div>
-          <p>Basic</p>
-          <p>Pro</p>
-          <p>Business</p>
-        </div>
-      </div>
-      <div class="features__item">
-        <h4 class="features__item-title">Photo Downloads</h4>
-        <div>
-          <p>Basic</p>
-          <p>Pro</p>
-          <p>Business</p>
-        </div>
-      </div>
-      <div class="features__item">
-        <h4 class="features__item-title">Search Engine Indexing</h4>
-        <div>
-          <p>Basic</p>
-          <p>Pro</p>
-          <p>Business</p>
-        </div>
-      </div>
-      <div class="features__item">
-        <h4 class="features__item-title">Custom Analytics</h4>
-        <div>
-          <p>Basic</p>
-          <p>Pro</p>
-          <p>Business</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="call-to-action">
-    <h2>We're in Beta. Get your invite today!</h2>
 
-    <h4>Get an invite</h4>
-  </div>
-  <footer>
+        <h4 class="footer__btn--layout">Get an invite</h4>
 
-    <div class="home__footer--wrapper"> 
-      <div class="footer-logo footer__logo--layout">
-        <img src="../../public/assets/shared/desktop/footer-logo.svg">
+        <p class="footer__copyright--layout">
+          Copyright 2019. All Rights Reserved
+        </p>
       </div>
-      <div class="footer__socials--layout">
-        <img class="footer-link" src="../../public/assets/shared/desktop/facebook.svg">
-        <img class="footer-link" src="../../public/assets/shared/desktop/youtube.svg" alt="">
-        <img class="footer-link" src="../../public/assets/shared/desktop/twitter.svg" alt="">
-        <img class="footer-link" src="../../public/assets/shared/desktop/pinterest.svg" alt="">
-        <img class="footer-link" src="../../public/assets/shared/desktop/instagram.svg" alt="">
-      </div>
-      <div class="footer__nav">
-        <a href="../../index.html">Home</a>
-        <a href="./stories.html"> Stories</a>
-        <a href="./features.html">Features</a>
-        <a href="./pricing.html">Pricing</a>
-      </div>
-  
-      <h4 class="footer__btn--layout">Get an invite</h4>
-  
-      <p class="footer__copyright--layout">Copyright 2019. All Rights Reserved</p>
-    </div>
-  </footer>
-  <script src="../../main.js"></script>
-</body>
+    </footer>
+    <script src="../../main.js"></script>
+  </body>
 </html>
