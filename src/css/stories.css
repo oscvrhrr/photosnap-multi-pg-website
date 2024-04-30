@@ -648,3 +648,42 @@ footer a {
     display: block;
   }
 }
+
+@media screen and (min-width: 1050px) {
+  uo {
+    margin-left: 10rem;
+  }
+
+  uo button {
+    margin-left: 13rem;
+  }
+
+
+  .logo img {
+    margin-left: 10rem;
+  }
+
+  .hero__img {
+    background-image: url('../../public/assets/stories/desktop/moon-of-appalacia.jpg');
+  }
+
+  .hero {
+    left: 5%;
+  }
+
+  .grid__container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .grid__item--mountains {
+    grid-column-start: 1 / 2 ;
+  }
+
+
+
+
+
+
+
+}

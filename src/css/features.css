@@ -358,3 +358,26 @@ footer a {
     display: block;
   }
 }
+
+@media screen and (min-width: 1050px) {
+  uo {
+    margin-left: 10rem;
+  }
+
+  uo button {
+    margin-left: 13rem;
+  }
+
+
+  .logo img {
+    margin-left: 10rem;
+  }
+
+
+
+
+
+
+
+
+}
