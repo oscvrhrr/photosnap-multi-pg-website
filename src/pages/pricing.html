@@ -42,7 +42,7 @@
       </nav>
     </header>
 
-    <main>
+    <main class="hero--flex">
       <div class="hero__img"></div>
       <div class="hero__content">
         <h1>Pricing</h1>
@@ -62,37 +62,52 @@
       </div>
 
       <div class="card card--light">
-        <h2>Basic</h2>
-        <p>
-          Includes basic usage of our platform. Recommended for new and aspiring
-          photographers.
-        </p>
-        <h1>$19.00</h1>
-        <p>per month</p>
+        <div class="card__content">
+          <h2>Basic</h2>
+          <p>
+            Includes basic usage of our platform. Recommended for new and aspiring
+            photographers.
+          </p>
+          <button class="card__button card__button--hide-mobile ">Pick Plan</button>
+        </div>
+        <div class="card__content-price--flex">
+          <h1>$19.00</h1>
+          <p>per month</p>
+        </div>
         <!-- $190.00 per year -->
-        <button class="card__button">Pick Plan</button>
+        <button class="card__button card__button--hide-tablet">Pick Plan</button>
       </div>
       <div class="card card--dark">
-        <h2>Pro</h2>
-        <p>
-          More advanced features available. Recommended for photography veterans
-          and professionals.
-        </p>
-        <h1>$39.00</h1>
-        <p>per month</p>
+        <div class="card__content">
+          <h2>Pro</h2>
+          <p>
+            More advanced features available. Recommended for photography veterans
+            and professionals.
+          </p>
+          <button class="card__button card--light card__button--hide-mobile">Pick Plan</button>
+        </div>
+        <div class="card__content-price--flex">
+          <h1>$39.00</h1>
+          <p>per month</p>
+        </div>
         <!-- $390.00 per year -->
-        <button class="card__button card--light">Pick Plan</button>
+        <button class="card__button card--light card__button--hide-tablet">Pick Plan</button>
       </div>
       <div class="card card--light">
-        <h2>Business</h2>
-        <p>
-          Additional features available such as more detailed metrics.
-          Recommended for business owners.
-        </p>
-        <h1>$99.00</h1>
-        <p>per month</p>
+        <div class="card__content">
+          <h2>Business</h2>
+          <p>
+            Additional features available such as more detailed metrics.
+            Recommended for business owners.
+          </p>
+          <button class="card__button card__button--hide-mobile">Pick Plan</button>
+        </div>
+        <div class="card__content-price--flex">
+          <h1>$99.00</h1>
+          <p>per month</p>
+        </div>
         <!-- $990.00 per year -->
-        <button class="card__button">Pick Plan</button>
+        <button class="card__button card__button--hide-tablet">Pick Plan</button>
       </div>
     </section>
     <section>

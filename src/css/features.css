@@ -270,7 +270,7 @@ footer a {
     margin-left: 2.5rem;
   }
 
-  .hero--grid {
+  .hero--flex {
     display: flex;
     flex-direction: row-reverse;
     height: 30.625rem;
