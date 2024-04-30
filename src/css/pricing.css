@@ -514,7 +514,55 @@ footer a {
     margin-left: 10rem;
   }
 
+  .hero__content {
+    width: 45%;
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
 
+  .hero__img {
+    background-image: url('../../public/assets/pricing/desktop/hero.jpg');
+  }
+
+  .container__card {
+    display: flex;
+    padding: 0 10rem;
+  }
+  .card {
+    width: 30%;
+    height: 29.4rem;
+    flex-direction: column;
+    padding: initial;
+    padding: 3.5rem 3rem;
+    text-align: center;
+  }
+
+  .card__content {
+    width: initial;
+    text-align: center;
+  }
+
+  .card__button--hide-mobile {
+    display: none;
+  }
+
+  .card__button--hide-tablet {
+    display: initial;
+  }
+
+  .card__content-price--flex {
+    display: initial;
+    margin: 0 auto;
+  }
+
+  .call-to-action {
+    background-image: url('../../public/assets/shared/desktop/bg-beta.jpg');
+    padding: 4.25rem 10rem;
+  }
+
+  .call-to-action h2 {
+    width: 30%;
+  }
 
 
 

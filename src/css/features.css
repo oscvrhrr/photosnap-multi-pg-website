@@ -303,7 +303,7 @@ footer a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 2rem
+    padding: 4rem 2rem;
   }
   .call-to-action h2 {
     width: 50%;
@@ -368,16 +368,36 @@ footer a {
     margin-left: 13rem;
   }
 
-
   .logo img {
     margin-left: 10rem;
   }
 
+  .hero__content {
+    width: 45%;
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
 
+  .hero__img {
+    background-image: url("../../public/assets/features/desktop/hero.jpg");
+  }
 
+  .grid__container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 10rem;
+  }
 
+  .grid__item {
+    margin: 1rem;
+  }
 
+  .call-to-action {
+    background-image: url("../../public/assets/shared/desktop/bg-beta.jpg");
+    padding: 4.25rem 10rem;
+  }
 
-
-
+  .call-to-action h2 {
+    width: 30%;
+  }
 }
