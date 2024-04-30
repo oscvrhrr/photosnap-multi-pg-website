@@ -105,7 +105,7 @@ uo a {
 }
 
 .hero__img {
-  background-image: url('../../public/assets/features/mobile/hero.jpg');
+  background-image: url("../../public/assets/features/mobile/hero.jpg");
   height: 18.375rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -131,7 +131,6 @@ uo a {
   font-size: var(--para-size);
   line-height: var(--para-height);
   opacity: 60%;
-
 }
 
 .grid__container {
@@ -201,7 +200,7 @@ footer a {
 }
 
 .call-to-action {
-  background-image: url('../../public/assets/shared/mobile/bg-beta.jpg');
+  background-image: url("../../public/assets/shared/mobile/bg-beta.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -214,7 +213,7 @@ footer a {
 .call-to-action h2 {
   font-size: 2rem;
   line-height: 2.5rem;
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -224,8 +223,6 @@ footer a {
 }
 
 @media screen and (min-width: 765px) {
-
-
   .header {
     position: static;
     display: flex;
@@ -246,10 +243,8 @@ footer a {
 
   uo {
     display: flex;
-
   }
 
-  
   uo li {
     margin: 1rem 0 0 2.25rem;
     font-size: 0.75rem;
@@ -271,7 +266,95 @@ footer a {
     padding: 0.625rem 0;
   }
 
+  .logo img {
+    margin-left: 2.5rem;
+  }
 
+  .hero--grid {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 30.625rem;
+  }
 
+  .hero__content {
+    width: 100%;
+    padding: 10rem 3.25rem;
+  }
 
+  .hero__img {
+    background-image: url("../../public/assets/features/tablet/hero.jpg");
+    background-size: cover;
+    background-position: 20% 50%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 100%;
+  }
+
+  .grid__container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .grid__item--margin {
+    padding-top: 2.5rem;
+  }
+
+  .call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem
+  }
+  .call-to-action h2 {
+    width: 50%;
+  }
+  .home__footer--wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 25px);
+  }
+
+  .footer__logo--layout {
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
+    object-fit: cover;
+    height: 100%;
+    padding: 0%;
+    margin-left: 0.65rem;
+  }
+
+  .footer__socials--layout {
+    display: block;
+    grid-column: 2 / 4;
+    grid-row: 8 / 10;
+  }
+
+  .footer__btn--layout {
+    color: white;
+    grid-column: 9 / 11;
+    grid-row: 3 / 6;
+    margin-top: 0.15rem;
+  }
+
+  .footer__copyright--layout {
+    grid-column: 8 /13;
+    grid-row: 9 / 11;
+    color: white;
+  }
+
+  .footer__nav {
+    display: inline-flex;
+    justify-content: space-around;
+
+    grid-column: 2 / 6;
+    grid-row: 5 / 7;
+  }
+
+  .footer-link {
+    margin: 1.75rem 0.35rem;
+  }
+
+  footer div {
+    display: block;
+  }
 }
