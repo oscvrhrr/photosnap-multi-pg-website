@@ -123,6 +123,7 @@ uo a {
   line-height: var(--head-one-height);
   text-transform: uppercase;
   letter-spacing: var(--head-one-spacing);
+  font-weight: 500;
 }
 
 .hero__content p {
