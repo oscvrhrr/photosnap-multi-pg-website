@@ -213,6 +213,10 @@ uo a {
   margin: 4rem auto ;
 }
 
+.feature__title--hide {
+  display: none;
+}
+
 .features__item {
   height: 7rem;
 }
@@ -436,7 +440,49 @@ footer a {
   .card__button--hide-tablet {
     display: none;
   }
-  
+
+  .features {
+    width: 87%;
+  }
+
+  .feature__title--hide {
+    display: block;
+  }
+
+  .features__title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .features__title h4 {
+    margin-left: 1.5rem;
+  }
+
+  .features__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .check--width {
+    width: 25rem;
+    margin-top: 1.75rem;
+  }
+
+  .check--width img {
+    width: 1rem;
+    height: .75rem;
+  }
+
+  .features__item-title {
+ 
+   margin:  2rem 0 0 1.5rem;
+  }
+
+  .features--flex-hide {
+    display: none;
+  }
 
   .call-to-action {
     display: flex;
