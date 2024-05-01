@@ -400,4 +400,19 @@ footer a {
   .call-to-action h2 {
     width: 30%;
   }
+
+  .footer-logo,
+  .footer__socials--layout {
+    margin-left: 2.5rem;
+  }
+
+  .footer__btn--layout {
+    grid-column: 10 / 12;
+    margin-left: 6.75rem;
+  }
+
+  .footer__copyright--layout {
+    grid-column: 9 / 12;
+    margin-left: 4rem;
+  }
 }
