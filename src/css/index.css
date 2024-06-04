@@ -493,6 +493,10 @@ footer a {
     margin-left: 13rem;
   }
 
+  nav a:hover {
+    opacity: .4;
+  }
+
 
   .logo img {
     margin-left: 10rem;
@@ -628,4 +632,21 @@ footer a {
     margin-left: 4rem;
   }
 
+  .place-text {
+    transition: all;
+  }
+
+  .rise {
+    transition-duration: 250ms;
+    transition-property: transform;
+
+  }
+  .rise:hover {
+    transform: translateY(-24px);
+  
+  }
+
+  .footer__nav a:hover {
+    opacity: .4;
+  }
 }

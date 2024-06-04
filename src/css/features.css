@@ -368,6 +368,11 @@ footer a {
     margin-left: 13rem;
   }
 
+  nav a:hover {
+    opacity: .4;
+  }
+
+
   .logo img {
     margin-left: 10rem;
   }
@@ -414,5 +419,8 @@ footer a {
   .footer__copyright--layout {
     grid-column: 9 / 12;
     margin-left: 4rem;
+  }
+  .footer__nav a:hover {
+    opacity: .4;
   }
 }
