@@ -562,6 +562,29 @@ footer a {
     background-image: url("../../public/assets/pricing/desktop/hero.jpg");
   }
 
+  .switch__capsule {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: .25rem;
+  }
+
+  .switch-ball {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #000;
+    border-radius: 50%;
+    transition: transfrom ease-in 2s ;
+    
+  }
+
+  .switch-ball--turn-on {
+    transform: translateX(30px);
+    background-color: white;
+  }
+
+
   .container__card {
     display: flex;
     padding: 0 10rem;
@@ -627,4 +650,7 @@ footer a {
   .footer__nav a:hover {
     opacity: .4;
   }
+
+ 
+
 }
